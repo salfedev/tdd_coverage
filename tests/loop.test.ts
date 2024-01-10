@@ -1,4 +1,4 @@
-import { test, expect, describe } from "bun:test";
+import { it, expect, describe } from "bun:test";
 
 import { multiply } from "../src/index";
 

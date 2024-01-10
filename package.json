@@ -6,7 +6,9 @@
   "scripts": {
     "test": "bunx jest --collectCoverage",
     "test:scene:loops": "bunx jest tests/loop.test --coverage",
-    "test:scene:bad": "bun test tests/index.test --coverage"
+    "test:scene:bad": "bun test tests/index.test --coverage",
+    "test:scene:badmock": "bun test tests/mocks.test --coverage",
+    "test:scene:types": "bun test tests/types.test --coverage"
   },
   "keywords": [],
   "author": "",
