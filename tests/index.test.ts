@@ -1,3 +1,4 @@
+import { it, expect, describe } from "bun:test";
 describe('Bad Test Examples', () => {
   it('will always pass', () => {
     expect(true).toBe(true)
@@ -8,4 +9,3 @@ describe('Bad Test Examples', () => {
     expect(number).toBe(1);
   });
 });
-

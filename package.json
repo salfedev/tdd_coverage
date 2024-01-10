@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "src/parsePeople.js",
   "scripts": {
-    "test": "jest --collectCoverage"
+    "test": "bunx jest --collectCoverage",
+    "test:scene:loops": "bunx jest tests/loop.test --coverage",
+    "test:scene:bad": "bun test tests/index.test --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "jest": "^29.7.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "module": "index.ts"
 }
