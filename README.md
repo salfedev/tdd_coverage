@@ -31,7 +31,7 @@ Mocking is a powerful tool that can be used to isolate code under test. However,
 - Using inconsistent naming conventions for test data
 
 # Easy structure for tests:
-- Arrange: set up the test, with a title that describes the your intent
+- Arrange: set up the test, with a title that describes your intent
 - Act: execute the code under test
 - Assert: verify the expected results
 
